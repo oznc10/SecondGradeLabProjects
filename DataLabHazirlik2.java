@@ -82,7 +82,7 @@ public class DataLabHazirlik2<E> {
         if(isEmpty()){
             return null;
         }
-        if(head.getNext().equals(null)){
+        if(head.getNext() == null){
             E element = head.getElement();
             head = null;
             tail = null;
@@ -209,5 +209,6 @@ class Book{
         return "Movie: " + movieName + ", Director: " + director + ", Year: " + year;
     }
 }
+
 
 
