@@ -24,7 +24,7 @@ public class DataLabHazirlik2<E> {
     private Node<E> tail;
     private int size;
     public DataLabHazirlik2(){
-        head = null; // bunların eski halinde niye yanlış olduğunu anlamadım
+        head = null; 
         tail = null;
         size = 0;
     }
@@ -209,4 +209,5 @@ class Book{
         return "Movie: " + movieName + ", Director: " + director + ", Year: " + year;
     }
 }
+
 
